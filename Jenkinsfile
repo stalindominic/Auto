@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Hello h') {
             steps {
                 sh 'cd /temp' 
                 sh 'mkdir test1'
