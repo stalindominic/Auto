@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'cp -a /temp/touch /tmp 
+                sh 'cp -r /temp/touch /tmp'
                 echo 'welcome India'
             }
         }
