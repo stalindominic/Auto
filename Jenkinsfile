@@ -4,11 +4,10 @@ pipeline {
     stages {
         stage('Hello h') {
             steps {
-                sh 'cd /temp' 
                 sh 'mkdir /temp/test1'
                 sh 'cd /temp/test1'
-                sh '/temp/test1/touch one'  
-                sh 'cp -r /temp/touch /tmp'
+                sh 'touch one'  
+                sh 'cp -r /temp/test1/one /tmp'
                 echo 'welcome India'
             }
         }
