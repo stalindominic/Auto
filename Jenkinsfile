@@ -4,7 +4,6 @@ pipeline {
     stages {
         stage('Hello h') {
             steps {
-                sh 'sudo su'
                 sh 'mkdir /test1'
                 sh 'cd /test1'
                 sh 'touch one'  
