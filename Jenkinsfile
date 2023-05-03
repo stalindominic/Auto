@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh 'mkdir test1'
                 sh 'cd test1'
-                sh 'touch one.txt'  
+                sh 'touch one.txt'
                 sh 'cp -r test1/one /tmp'
                 echo 'welcome India'
             }
